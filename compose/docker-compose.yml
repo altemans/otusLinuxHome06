@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+ repo:
+  image: repo:test
+  container_name: repo
+  restart: always
+  ports:
+   - "8080:80"
+  volumes:
+   - /repo/repo:/var/www/html:rw
+   - /repo/repo-load:/newload/:rw

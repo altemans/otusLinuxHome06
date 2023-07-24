@@ -1,0 +1,12 @@
+Log created: 2023-05-09T21:50:57.529083000Z
+Process ID:  11924 (0x2e94)
+Parent PID:  3381 (0xd35)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: home06_test_1683545694921_70084
+Arg[3]: --startvm
+Arg[4]: 8ac112cc-c0a4-4755-8119-538c4e210e01
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2
